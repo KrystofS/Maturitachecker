@@ -162,6 +162,7 @@ namespace MaturitaChecker
             labelPoezie.Text = Convert.ToString(poezie);
             labelProza.Text = Convert.ToString(proza);
             labelDrama.Text = Convert.ToString(drama);
+            //test
         }
         
 
