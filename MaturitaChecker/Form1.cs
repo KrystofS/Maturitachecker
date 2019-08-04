@@ -270,7 +270,7 @@ namespace MaturitaChecker
             System.IO.File.Delete(@"" + path + "seznam cetby.txt");
             for (int i = 0; i < combobox.Count; i++)
             {
-                System.IO.File.AppendAllText(@"" + path + "seznam cetby.txt", combobox[combobox.Count-i-1].Text + (char)13 + (char)10);
+                System.IO.File.AppendAllText(path + (char)92 + "seznam cetby.txt", combobox[combobox.Count-i-1].Text + (char)13 + (char)10);
             }
         }
 
@@ -284,7 +284,6 @@ namespace MaturitaChecker
                     combobox.Add(item as ComboBox);
                 }
             }
-
             return combobox;
         }
     }
