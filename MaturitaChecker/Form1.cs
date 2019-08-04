@@ -74,14 +74,7 @@ namespace MaturitaChecker
             this.booksTableAdapter1.Fill(this.db_bookDataSet1.books);
             // TODO: This line of code loads data into the 'db_bookDataSet.books' table. You can move, or remove it, as needed.
             this.booksTableAdapter.Fill(this.db_bookDataSet.books);
-            List<ComboBox> combobox = new List<ComboBox>();
-            foreach (var item in this.Controls) // Looping through all controls in the form
-            {
-                if (item is ComboBox) // if the current is a button we add it
-                {
-                    combobox.Add(item as ComboBox);
-                }
-            }
+            List<ComboBox> combobox = AllComboboxes();
             for (int i = 0; i < combobox.Count; i++)
             {
                combobox[i].SelectedItem = null;
@@ -121,14 +114,7 @@ namespace MaturitaChecker
             List<string> knihyList = new List<string>();
             //nacteni dat z comboboxu
             //vygenerovat pole comboboxu ze kterho potom vyberu dle https://stackoverflow.com/questions/5905791/using-variables-in-object-names, https://stackoverflow.com/questions/50391518/c-sharp-fill-an-array-with-all-the-buttons-being-used-in-windows-form
-            List<ComboBox> combobox = new List<ComboBox>();
-            foreach (var item in this.Controls) // Looping through all controls in the form
-            {
-                if (item is ComboBox) // if the current is a button we add it
-                {
-                    combobox.Add(item as ComboBox);
-                }
-            }
+            List<ComboBox> combobox = AllComboboxes();
 
             string[] knihy = new string[combobox.Count]; // bylo by fajn dát upozornění na 2 stejné knížky
             string[] time = new string[combobox.Count];
@@ -264,6 +250,21 @@ namespace MaturitaChecker
 
         private void buttonExport_Click(object sender, EventArgs e)
         {
+            List<ComboBox> combobox = AllComboboxes();
+            string path = null;
+            if (folderBrowserDialog1.ShowDialog() == DialogResult.OK)
+            {
+                path = folderBrowserDialog1.SelectedPath;
+            }
+            System.IO.File.Delete(@"" + path + "seznam cetby.txt");
+            for (int i = 0; i < combobox.Count; i++)
+            {
+                System.IO.File.AppendAllText(@"" + path + "seznam cetby.txt", combobox[combobox.Count-i-1].Text + (char)13 + (char)10);
+            }
+        }
+
+        private List<ComboBox> AllComboboxes()
+        {
             List<ComboBox> combobox = new List<ComboBox>();
             foreach (var item in this.Controls) // Looping through all controls in the form
             {
@@ -272,16 +273,8 @@ namespace MaturitaChecker
                     combobox.Add(item as ComboBox);
                 }
             }
-            string path = null;
-            if (folderBrowserDialog1.ShowDialog() == DialogResult.OK)
-            {
-                path = folderBrowserDialog1.SelectedPath;
-            }
-            System.IO.File.Delete(@""+path+"seznam cetby.txt");
-            for (int i = 0; i < combobox.Count; i++)
-            {
-                System.IO.File.AppendAllText(@"" + path + "seznam cetby.txt", combobox[i].Text + (char)13 + (char)10);
-            }
+
+            return combobox;
         }
     }
 }
