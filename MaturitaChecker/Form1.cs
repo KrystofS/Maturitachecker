@@ -261,7 +261,27 @@ namespace MaturitaChecker
                 labelDrama.ForeColor = Color.Red;
             }
         }
-        
 
+        private void buttonExport_Click(object sender, EventArgs e)
+        {
+            List<ComboBox> combobox = new List<ComboBox>();
+            foreach (var item in this.Controls) // Looping through all controls in the form
+            {
+                if (item is ComboBox) // if the current is a button we add it
+                {
+                    combobox.Add(item as ComboBox);
+                }
+            }
+            string path = null;
+            if (folderBrowserDialog1.ShowDialog() == DialogResult.OK)
+            {
+                path = folderBrowserDialog1.SelectedPath;
+            }
+            System.IO.File.Delete(@""+path+"seznam cetby.txt");
+            for (int i = 0; i < combobox.Count; i++)
+            {
+                System.IO.File.AppendAllText(@"" + path + "seznam cetby.txt", combobox[i].Text + (char)13 + (char)10);
+            }
+        }
     }
 }
