@@ -148,6 +148,7 @@
             this.booksTableAdapter19 = new MaturitaChecker.db_bookDataSet18TableAdapters.booksTableAdapter();
             this.folderBrowserDialog1 = new System.Windows.Forms.FolderBrowserDialog();
             this.buttonExport = new System.Windows.Forms.Button();
+            this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.booksBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.db_bookDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.booksBindingSource1)).BeginInit();
@@ -1305,6 +1306,7 @@
         private db_bookDataSet18TableAdapters.booksTableAdapter booksTableAdapter19;
         private System.Windows.Forms.FolderBrowserDialog folderBrowserDialog1;
         private System.Windows.Forms.Button buttonExport;
+        private System.Windows.Forms.ToolTip toolTip1;
     }
 }
 

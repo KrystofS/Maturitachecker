@@ -80,6 +80,17 @@ namespace MaturitaChecker
                combobox[i].SelectedItem = null;
                combobox[i].SelectedText = "--Zvolte knihu--";
             }
+            // Create the ToolTip and associate with the Form container.
+            ToolTip toolTip1 = new ToolTip();
+
+            // Set up the delays for the ToolTip.
+            toolTip1.InitialDelay = 100;
+            toolTip1.ReshowDelay = 200;
+            // Force the ToolTip text to be displayed whether or not the form is active.
+            toolTip1.ShowAlways = true;
+
+            // Set up the ToolTip text for the Button and Checkbox.
+            toolTip1.SetToolTip(this.buttonExport, "Exportuje do zvolené lokace, jako "+(char)34+ "seznam cetby.txt" + (char)34);
         }
 
         private void label26_Click(object sender, EventArgs e)
