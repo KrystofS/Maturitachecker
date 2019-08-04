@@ -85,7 +85,7 @@ namespace MaturitaChecker
             for (int i = 0; i < combobox.Count; i++)
             {
                combobox[i].SelectedItem = null;
-               combobox[i].SelectedText = null;
+               combobox[i].SelectedText = "--Zvolte knihu--";
             }
         }
 
