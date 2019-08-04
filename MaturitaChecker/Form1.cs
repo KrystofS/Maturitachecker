@@ -74,6 +74,19 @@ namespace MaturitaChecker
             this.booksTableAdapter1.Fill(this.db_bookDataSet1.books);
             // TODO: This line of code loads data into the 'db_bookDataSet.books' table. You can move, or remove it, as needed.
             this.booksTableAdapter.Fill(this.db_bookDataSet.books);
+            List<ComboBox> combobox = new List<ComboBox>();
+            foreach (var item in this.Controls) // Looping through all controls in the form
+            {
+                if (item is ComboBox) // if the current is a button we add it
+                {
+                    combobox.Add(item as ComboBox);
+                }
+            }
+            for (int i = 0; i < combobox.Count; i++)
+            {
+               combobox[i].SelectedItem = null;
+               combobox[i].SelectedText = null;
+            }
         }
 
         private void label26_Click(object sender, EventArgs e)
