@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
 
 namespace MaturitaChecker
 {
@@ -80,17 +81,6 @@ namespace MaturitaChecker
                combobox[i].SelectedItem = null;
                combobox[i].SelectedText = "--Zvolte knihu--";
             }
-            // Create the ToolTip and associate with the Form container.
-            ToolTip toolTip1 = new ToolTip();
-
-            // Set up the delays for the ToolTip.
-            toolTip1.InitialDelay = 100;
-            toolTip1.ReshowDelay = 200;
-            // Force the ToolTip text to be displayed whether or not the form is active.
-            toolTip1.ShowAlways = true;
-
-            // Set up the ToolTip text for the Button and Checkbox.
-            toolTip1.SetToolTip(this.buttonExport, "Exportuje do zvolené lokace, jako "+(char)34+ "seznam cetby.txt" + (char)34);
         }
 
         private void label26_Click(object sender, EventArgs e)
@@ -263,14 +253,18 @@ namespace MaturitaChecker
         {
             List<ComboBox> combobox = AllComboboxes();
             string path = null;
-            if (folderBrowserDialog1.ShowDialog() == DialogResult.OK)
+            saveFileDialog1.FileName = "seznam cetby"; // Default file name
+            saveFileDialog1.DefaultExt = ".txt"; // Default file extension
+            saveFileDialog1.Filter = "Text documents (.txt)|*.txt"; // Filter files by extension
+            if (saveFileDialog1.ShowDialog() == DialogResult.OK)
             {
-                path = folderBrowserDialog1.SelectedPath;
+                // Save document
+                path = saveFileDialog1.FileName;
             }
-            System.IO.File.Delete(@"" + path + "seznam cetby.txt");
+            System.IO.File.Delete(path);
             for (int i = 0; i < combobox.Count; i++)
             {
-                System.IO.File.AppendAllText(path + (char)92 + "seznam cetby.txt", combobox[combobox.Count-i-1].Text + (char)13 + (char)10);
+                System.IO.File.AppendAllText(path, combobox[combobox.Count-i-1].Text + (char)13 + (char)10);
             }
         }
 
@@ -285,6 +279,27 @@ namespace MaturitaChecker
                 }
             }
             return combobox;
+        }
+
+        private void buttonImport_Click(object sender, EventArgs e)
+        {
+            List<ComboBox> combobox = AllComboboxes();
+            string path = null;
+
+            openFileDialog1.Filter = "txt files (*.txt)|*.txt|All files (*.*)|*.*";
+            openFileDialog1.FilterIndex = 2;
+            openFileDialog1.RestoreDirectory = true;
+
+            if (openFileDialog1.ShowDialog() == DialogResult.OK)
+            {
+                path = openFileDialog1.FileName;
+            }
+            string[] lines = File.ReadAllLines(path);
+            for (int i = 0; i < combobox.Count; i++)
+            {
+                combobox[i].Text = lines[i];
+            }
+
         }
     }
 }
