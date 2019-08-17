@@ -297,7 +297,7 @@ namespace MaturitaChecker
             string[] lines = File.ReadAllLines(path);
             for (int i = 0; i < combobox.Count; i++)
             {
-                combobox[i].Text = lines[i];
+                combobox[i].Text = lines[combobox.Count-i-1];
             }
 
         }
