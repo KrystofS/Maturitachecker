@@ -264,7 +264,7 @@ namespace MaturitaChecker
             System.IO.File.Delete(path);
             for (int i = 0; i < combobox.Count; i++)
             {
-                System.IO.File.AppendAllText(path, combobox[combobox.Count-i-1].Text + (char)13 + (char)10);
+                System.IO.File.AppendAllText(path, combobox[combobox.Count- i-1].Text + (char)13 + (char)10);
             }
         }
 
@@ -297,7 +297,7 @@ namespace MaturitaChecker
             string[] lines = File.ReadAllLines(path);
             for (int i = 0; i < combobox.Count; i++)
             {
-                combobox[i].Text = lines[i];
+                combobox[i].Text = lines[combobox.Count-i-1];
             }
 
         }
