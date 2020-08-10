@@ -31,7 +31,7 @@
   <xs:element name="db_bookDataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="db_bookDataSet1" msprop:Generator_UserDSName="db_bookDataSet1">
     <xs:complexType>
       <xs:choice minOccurs="0" maxOccurs="unbounded">
-        <xs:element name="books" msprop:Generator_TableClassName="booksDataTable" msprop:Generator_TableVarName="tablebooks" msprop:Generator_TablePropName="books" msprop:Generator_RowDeletingName="booksRowDeleting" msprop:Generator_RowChangingName="booksRowChanging" msprop:Generator_RowEvHandlerName="booksRowChangeEventHandler" msprop:Generator_RowDeletedName="booksRowDeleted" msprop:Generator_UserTableName="books" msprop:Generator_RowChangedName="booksRowChanged" msprop:Generator_RowEvArgName="booksRowChangeEvent" msprop:Generator_RowClassName="booksRow">
+        <xs:element name="books" msprop:Generator_TableClassName="booksDataTable" msprop:Generator_TableVarName="tablebooks" msprop:Generator_RowChangedName="booksRowChanged" msprop:Generator_TablePropName="books" msprop:Generator_RowDeletingName="booksRowDeleting" msprop:Generator_RowChangingName="booksRowChanging" msprop:Generator_RowEvHandlerName="booksRowChangeEventHandler" msprop:Generator_RowDeletedName="booksRowDeleted" msprop:Generator_RowClassName="booksRow" msprop:Generator_UserTableName="books" msprop:Generator_RowEvArgName="booksRowChangeEvent">
           <xs:complexType>
             <xs:sequence>
               <xs:element name="Name" msprop:Generator_ColumnVarNameInTable="columnName" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnPropNameInTable="NameColumn" msprop:Generator_UserColumnName="Name">

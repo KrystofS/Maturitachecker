@@ -30,15 +30,9 @@
         {
             this.components = new System.ComponentModel.Container();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.booksBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.db_bookDataSet = new MaturitaChecker.db_bookDataSet();
             this.label1 = new System.Windows.Forms.Label();
             this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.booksBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
-            this.db_bookDataSet1 = new MaturitaChecker.db_bookDataSet1();
             this.comboBox3 = new System.Windows.Forms.ComboBox();
-            this.booksBindingSource2 = new System.Windows.Forms.BindingSource(this.components);
-            this.db_bookDataSet2 = new MaturitaChecker.db_bookDataSet2();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -48,17 +42,8 @@
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
-            this.booksTableAdapter = new MaturitaChecker.db_bookDataSetTableAdapters.booksTableAdapter();
             this.comboBox4 = new System.Windows.Forms.ComboBox();
-            this.booksBindingSource3 = new System.Windows.Forms.BindingSource(this.components);
-            this.db_bookDataSet3 = new MaturitaChecker.db_bookDataSet3();
             this.comboBox5 = new System.Windows.Forms.ComboBox();
-            this.booksBindingSource4 = new System.Windows.Forms.BindingSource(this.components);
-            this.db_bookDataSet4 = new MaturitaChecker.db_bookDataSet4();
-            this.booksTableAdapter1 = new MaturitaChecker.db_bookDataSet1TableAdapters.booksTableAdapter();
-            this.booksTableAdapter2 = new MaturitaChecker.db_bookDataSet2TableAdapters.booksTableAdapter();
-            this.booksTableAdapter3 = new MaturitaChecker.db_bookDataSet3TableAdapters.booksTableAdapter();
-            this.booksTableAdapter4 = new MaturitaChecker.db_bookDataSet4TableAdapters.booksTableAdapter();
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
@@ -69,7 +54,6 @@
             this.label18 = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
             this.label20 = new System.Windows.Forms.Label();
-            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.buttonKontrola = new System.Windows.Forms.Button();
             this.label21 = new System.Windows.Forms.Label();
             this.label22 = new System.Windows.Forms.Label();
@@ -83,138 +67,45 @@
             this.label19stol = new System.Windows.Forms.Label();
             this.labelSvet = new System.Windows.Forms.Label();
             this.labelCesko = new System.Windows.Forms.Label();
-            this.dataSetComplete = new MaturitaChecker.dataSetComplete();
-            this.booksBindingSource5 = new System.Windows.Forms.BindingSource(this.components);
-            this.booksTableAdapter5 = new MaturitaChecker.dataSetCompleteTableAdapters.booksTableAdapter();
             this.labelDrama = new System.Windows.Forms.Label();
             this.labelProza = new System.Windows.Forms.Label();
             this.labelPoezie = new System.Windows.Forms.Label();
             this.comboBox6 = new System.Windows.Forms.ComboBox();
             this.comboBox7 = new System.Windows.Forms.ComboBox();
-            this.booksBindingSource6 = new System.Windows.Forms.BindingSource(this.components);
-            this.db_bookDataSet5 = new MaturitaChecker.db_bookDataSet5();
             this.comboBox8 = new System.Windows.Forms.ComboBox();
-            this.booksBindingSource7 = new System.Windows.Forms.BindingSource(this.components);
-            this.db_bookDataSet6 = new MaturitaChecker.db_bookDataSet6();
             this.comboBox9 = new System.Windows.Forms.ComboBox();
-            this.booksBindingSource8 = new System.Windows.Forms.BindingSource(this.components);
-            this.db_bookDataSet7 = new MaturitaChecker.db_bookDataSet7();
             this.comboBox10 = new System.Windows.Forms.ComboBox();
-            this.booksBindingSource9 = new System.Windows.Forms.BindingSource(this.components);
-            this.db_bookDataSet8 = new MaturitaChecker.db_bookDataSet8();
             this.comboBox11 = new System.Windows.Forms.ComboBox();
-            this.booksBindingSource10 = new System.Windows.Forms.BindingSource(this.components);
-            this.db_bookDataSet9 = new MaturitaChecker.db_bookDataSet9();
             this.comboBox12 = new System.Windows.Forms.ComboBox();
-            this.booksBindingSource11 = new System.Windows.Forms.BindingSource(this.components);
-            this.db_bookDataSet10 = new MaturitaChecker.db_bookDataSet10();
             this.comboBox13 = new System.Windows.Forms.ComboBox();
-            this.booksBindingSource12 = new System.Windows.Forms.BindingSource(this.components);
-            this.db_bookDataSet11 = new MaturitaChecker.db_bookDataSet11();
             this.comboBox14 = new System.Windows.Forms.ComboBox();
-            this.booksBindingSource13 = new System.Windows.Forms.BindingSource(this.components);
-            this.db_bookDataSet12 = new MaturitaChecker.db_bookDataSet12();
             this.comboBox15 = new System.Windows.Forms.ComboBox();
-            this.booksBindingSource14 = new System.Windows.Forms.BindingSource(this.components);
-            this.db_bookDataSet13 = new MaturitaChecker.db_bookDataSet13();
             this.comboBox16 = new System.Windows.Forms.ComboBox();
-            this.booksBindingSource15 = new System.Windows.Forms.BindingSource(this.components);
-            this.db_bookDataSet14 = new MaturitaChecker.db_bookDataSet14();
             this.comboBox17 = new System.Windows.Forms.ComboBox();
-            this.booksBindingSource16 = new System.Windows.Forms.BindingSource(this.components);
-            this.db_bookDataSet15 = new MaturitaChecker.db_bookDataSet15();
             this.comboBox18 = new System.Windows.Forms.ComboBox();
-            this.booksBindingSource17 = new System.Windows.Forms.BindingSource(this.components);
-            this.db_bookDataSet16 = new MaturitaChecker.db_bookDataSet16();
             this.comboBox19 = new System.Windows.Forms.ComboBox();
-            this.booksBindingSource18 = new System.Windows.Forms.BindingSource(this.components);
-            this.db_bookDataSet17 = new MaturitaChecker.db_bookDataSet17();
             this.comboBox20 = new System.Windows.Forms.ComboBox();
-            this.booksBindingSource19 = new System.Windows.Forms.BindingSource(this.components);
-            this.db_bookDataSet18 = new MaturitaChecker.db_bookDataSet18();
-            this.booksTableAdapter6 = new MaturitaChecker.db_bookDataSet5TableAdapters.booksTableAdapter();
-            this.booksTableAdapter7 = new MaturitaChecker.db_bookDataSet6TableAdapters.booksTableAdapter();
-            this.booksTableAdapter8 = new MaturitaChecker.db_bookDataSet7TableAdapters.booksTableAdapter();
-            this.booksTableAdapter9 = new MaturitaChecker.db_bookDataSet8TableAdapters.booksTableAdapter();
-            this.booksTableAdapter10 = new MaturitaChecker.db_bookDataSet9TableAdapters.booksTableAdapter();
-            this.booksTableAdapter11 = new MaturitaChecker.db_bookDataSet10TableAdapters.booksTableAdapter();
-            this.booksTableAdapter12 = new MaturitaChecker.db_bookDataSet11TableAdapters.booksTableAdapter();
-            this.booksTableAdapter13 = new MaturitaChecker.db_bookDataSet12TableAdapters.booksTableAdapter();
-            this.booksTableAdapter14 = new MaturitaChecker.db_bookDataSet13TableAdapters.booksTableAdapter();
-            this.booksTableAdapter15 = new MaturitaChecker.db_bookDataSet14TableAdapters.booksTableAdapter();
-            this.booksTableAdapter16 = new MaturitaChecker.db_bookDataSet15TableAdapters.booksTableAdapter();
-            this.booksTableAdapter17 = new MaturitaChecker.db_bookDataSet16TableAdapters.booksTableAdapter();
-            this.booksTableAdapter18 = new MaturitaChecker.db_bookDataSet17TableAdapters.booksTableAdapter();
-            this.booksTableAdapter19 = new MaturitaChecker.db_bookDataSet18TableAdapters.booksTableAdapter();
             this.folderBrowserDialog1 = new System.Windows.Forms.FolderBrowserDialog();
             this.buttonExport = new System.Windows.Forms.Button();
             this.buttonImport = new System.Windows.Forms.Button();
             this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
-            ((System.ComponentModel.ISupportInitialize)(this.booksBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.db_bookDataSet)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.booksBindingSource1)).BeginInit();
+            this.db_bookDataSet1 = new MaturitaChecker.db_bookDataSet1();
+            this.dbbookDataSet1BindingSource = new System.Windows.Forms.BindingSource(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.db_bookDataSet1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.booksBindingSource2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.db_bookDataSet2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.booksBindingSource3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.db_bookDataSet3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.booksBindingSource4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.db_bookDataSet4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataSetComplete)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.booksBindingSource5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.booksBindingSource6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.db_bookDataSet5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.booksBindingSource7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.db_bookDataSet6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.booksBindingSource8)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.db_bookDataSet7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.booksBindingSource9)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.db_bookDataSet8)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.booksBindingSource10)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.db_bookDataSet9)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.booksBindingSource11)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.db_bookDataSet10)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.booksBindingSource12)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.db_bookDataSet11)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.booksBindingSource13)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.db_bookDataSet12)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.booksBindingSource14)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.db_bookDataSet13)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.booksBindingSource15)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.db_bookDataSet14)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.booksBindingSource16)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.db_bookDataSet15)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.booksBindingSource17)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.db_bookDataSet16)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.booksBindingSource18)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.db_bookDataSet17)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.booksBindingSource19)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.db_bookDataSet18)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dbbookDataSet1BindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // comboBox1
             // 
             this.comboBox1.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
             this.comboBox1.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox1.DataSource = this.booksBindingSource;
-            this.comboBox1.DisplayMember = "Name";
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Location = new System.Drawing.Point(53, 6);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(182, 21);
             this.comboBox1.TabIndex = 0;
             this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
-            // 
-            // booksBindingSource
-            // 
-            this.booksBindingSource.DataMember = "books";
-            this.booksBindingSource.DataSource = this.db_bookDataSet;
-            // 
-            // db_bookDataSet
-            // 
-            this.db_bookDataSet.DataSetName = "db_bookDataSet";
-            this.db_bookDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // label1
             // 
@@ -229,8 +120,6 @@
             // 
             this.comboBox2.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
             this.comboBox2.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox2.DataSource = this.booksBindingSource1;
-            this.comboBox2.DisplayMember = "Name";
             this.comboBox2.FormattingEnabled = true;
             this.comboBox2.Location = new System.Drawing.Point(53, 33);
             this.comboBox2.Name = "comboBox2";
@@ -238,38 +127,16 @@
             this.comboBox2.TabIndex = 1;
             this.comboBox2.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
-            // booksBindingSource1
-            // 
-            this.booksBindingSource1.DataMember = "books";
-            this.booksBindingSource1.DataSource = this.db_bookDataSet1;
-            // 
-            // db_bookDataSet1
-            // 
-            this.db_bookDataSet1.DataSetName = "db_bookDataSet1";
-            this.db_bookDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
             // comboBox3
             // 
             this.comboBox3.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
             this.comboBox3.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox3.DataSource = this.booksBindingSource2;
-            this.comboBox3.DisplayMember = "Name";
             this.comboBox3.FormattingEnabled = true;
             this.comboBox3.Location = new System.Drawing.Point(53, 60);
             this.comboBox3.Name = "comboBox3";
             this.comboBox3.Size = new System.Drawing.Size(182, 21);
             this.comboBox3.TabIndex = 2;
             this.comboBox3.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
-            // 
-            // booksBindingSource2
-            // 
-            this.booksBindingSource2.DataMember = "books";
-            this.booksBindingSource2.DataSource = this.db_bookDataSet2;
-            // 
-            // db_bookDataSet2
-            // 
-            this.db_bookDataSet2.DataSetName = "db_bookDataSet2";
-            this.db_bookDataSet2.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // label2
             // 
@@ -352,16 +219,10 @@
             this.label10.TabIndex = 1;
             this.label10.Text = "10";
             // 
-            // booksTableAdapter
-            // 
-            this.booksTableAdapter.ClearBeforeFill = true;
-            // 
             // comboBox4
             // 
             this.comboBox4.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
             this.comboBox4.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox4.DataSource = this.booksBindingSource3;
-            this.comboBox4.DisplayMember = "Name";
             this.comboBox4.FormattingEnabled = true;
             this.comboBox4.Location = new System.Drawing.Point(53, 87);
             this.comboBox4.Name = "comboBox4";
@@ -369,54 +230,16 @@
             this.comboBox4.TabIndex = 3;
             this.comboBox4.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
-            // booksBindingSource3
-            // 
-            this.booksBindingSource3.DataMember = "books";
-            this.booksBindingSource3.DataSource = this.db_bookDataSet3;
-            // 
-            // db_bookDataSet3
-            // 
-            this.db_bookDataSet3.DataSetName = "db_bookDataSet3";
-            this.db_bookDataSet3.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
             // comboBox5
             // 
             this.comboBox5.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
             this.comboBox5.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox5.DataSource = this.booksBindingSource4;
-            this.comboBox5.DisplayMember = "Name";
             this.comboBox5.FormattingEnabled = true;
             this.comboBox5.Location = new System.Drawing.Point(53, 114);
             this.comboBox5.Name = "comboBox5";
             this.comboBox5.Size = new System.Drawing.Size(182, 21);
             this.comboBox5.TabIndex = 4;
             this.comboBox5.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
-            // 
-            // booksBindingSource4
-            // 
-            this.booksBindingSource4.DataMember = "books";
-            this.booksBindingSource4.DataSource = this.db_bookDataSet4;
-            // 
-            // db_bookDataSet4
-            // 
-            this.db_bookDataSet4.DataSetName = "db_bookDataSet4";
-            this.db_bookDataSet4.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // booksTableAdapter1
-            // 
-            this.booksTableAdapter1.ClearBeforeFill = true;
-            // 
-            // booksTableAdapter2
-            // 
-            this.booksTableAdapter2.ClearBeforeFill = true;
-            // 
-            // booksTableAdapter3
-            // 
-            this.booksTableAdapter3.ClearBeforeFill = true;
-            // 
-            // booksTableAdapter4
-            // 
-            this.booksTableAdapter4.ClearBeforeFill = true;
             // 
             // label11
             // 
@@ -507,11 +330,6 @@
             this.label20.Size = new System.Drawing.Size(19, 13);
             this.label20.TabIndex = 1;
             this.label20.Text = "20";
-            // 
-            // contextMenuStrip1
-            // 
-            this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
             // 
             // buttonKontrola
             // 
@@ -637,20 +455,6 @@
             this.labelCesko.TabIndex = 11;
             this.labelCesko.Text = "-";
             // 
-            // dataSetComplete
-            // 
-            this.dataSetComplete.DataSetName = "dataSetComplete";
-            this.dataSetComplete.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // booksBindingSource5
-            // 
-            this.booksBindingSource5.DataMember = "books";
-            this.booksBindingSource5.DataSource = this.dataSetComplete;
-            // 
-            // booksTableAdapter5
-            // 
-            this.booksTableAdapter5.ClearBeforeFill = true;
-            // 
             // labelDrama
             // 
             this.labelDrama.AutoSize = true;
@@ -682,8 +486,6 @@
             // 
             this.comboBox6.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
             this.comboBox6.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox6.DataSource = this.booksBindingSource5;
-            this.comboBox6.DisplayMember = "Name";
             this.comboBox6.FormattingEnabled = true;
             this.comboBox6.Location = new System.Drawing.Point(53, 141);
             this.comboBox6.Name = "comboBox6";
@@ -695,8 +497,6 @@
             // 
             this.comboBox7.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
             this.comboBox7.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox7.DataSource = this.booksBindingSource6;
-            this.comboBox7.DisplayMember = "Name";
             this.comboBox7.FormattingEnabled = true;
             this.comboBox7.Location = new System.Drawing.Point(53, 168);
             this.comboBox7.Name = "comboBox7";
@@ -704,22 +504,10 @@
             this.comboBox7.TabIndex = 6;
             this.comboBox7.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
-            // booksBindingSource6
-            // 
-            this.booksBindingSource6.DataMember = "books";
-            this.booksBindingSource6.DataSource = this.db_bookDataSet5;
-            // 
-            // db_bookDataSet5
-            // 
-            this.db_bookDataSet5.DataSetName = "db_bookDataSet5";
-            this.db_bookDataSet5.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
             // comboBox8
             // 
             this.comboBox8.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
             this.comboBox8.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox8.DataSource = this.booksBindingSource7;
-            this.comboBox8.DisplayMember = "Name";
             this.comboBox8.FormattingEnabled = true;
             this.comboBox8.Location = new System.Drawing.Point(53, 195);
             this.comboBox8.Name = "comboBox8";
@@ -727,22 +515,10 @@
             this.comboBox8.TabIndex = 7;
             this.comboBox8.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
-            // booksBindingSource7
-            // 
-            this.booksBindingSource7.DataMember = "books";
-            this.booksBindingSource7.DataSource = this.db_bookDataSet6;
-            // 
-            // db_bookDataSet6
-            // 
-            this.db_bookDataSet6.DataSetName = "db_bookDataSet6";
-            this.db_bookDataSet6.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
             // comboBox9
             // 
             this.comboBox9.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
             this.comboBox9.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox9.DataSource = this.booksBindingSource8;
-            this.comboBox9.DisplayMember = "Name";
             this.comboBox9.FormattingEnabled = true;
             this.comboBox9.Location = new System.Drawing.Point(53, 222);
             this.comboBox9.Name = "comboBox9";
@@ -750,22 +526,10 @@
             this.comboBox9.TabIndex = 8;
             this.comboBox9.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
-            // booksBindingSource8
-            // 
-            this.booksBindingSource8.DataMember = "books";
-            this.booksBindingSource8.DataSource = this.db_bookDataSet7;
-            // 
-            // db_bookDataSet7
-            // 
-            this.db_bookDataSet7.DataSetName = "db_bookDataSet7";
-            this.db_bookDataSet7.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
             // comboBox10
             // 
             this.comboBox10.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
             this.comboBox10.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox10.DataSource = this.booksBindingSource9;
-            this.comboBox10.DisplayMember = "Name";
             this.comboBox10.FormattingEnabled = true;
             this.comboBox10.Location = new System.Drawing.Point(53, 249);
             this.comboBox10.Name = "comboBox10";
@@ -773,22 +537,10 @@
             this.comboBox10.TabIndex = 9;
             this.comboBox10.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
-            // booksBindingSource9
-            // 
-            this.booksBindingSource9.DataMember = "books";
-            this.booksBindingSource9.DataSource = this.db_bookDataSet8;
-            // 
-            // db_bookDataSet8
-            // 
-            this.db_bookDataSet8.DataSetName = "db_bookDataSet8";
-            this.db_bookDataSet8.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
             // comboBox11
             // 
             this.comboBox11.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
             this.comboBox11.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox11.DataSource = this.booksBindingSource10;
-            this.comboBox11.DisplayMember = "Name";
             this.comboBox11.FormattingEnabled = true;
             this.comboBox11.Location = new System.Drawing.Point(447, 6);
             this.comboBox11.Name = "comboBox11";
@@ -796,22 +548,10 @@
             this.comboBox11.TabIndex = 10;
             this.comboBox11.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
-            // booksBindingSource10
-            // 
-            this.booksBindingSource10.DataMember = "books";
-            this.booksBindingSource10.DataSource = this.db_bookDataSet9;
-            // 
-            // db_bookDataSet9
-            // 
-            this.db_bookDataSet9.DataSetName = "db_bookDataSet9";
-            this.db_bookDataSet9.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
             // comboBox12
             // 
             this.comboBox12.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
             this.comboBox12.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox12.DataSource = this.booksBindingSource11;
-            this.comboBox12.DisplayMember = "Name";
             this.comboBox12.FormattingEnabled = true;
             this.comboBox12.Location = new System.Drawing.Point(447, 33);
             this.comboBox12.Name = "comboBox12";
@@ -819,22 +559,10 @@
             this.comboBox12.TabIndex = 11;
             this.comboBox12.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
-            // booksBindingSource11
-            // 
-            this.booksBindingSource11.DataMember = "books";
-            this.booksBindingSource11.DataSource = this.db_bookDataSet10;
-            // 
-            // db_bookDataSet10
-            // 
-            this.db_bookDataSet10.DataSetName = "db_bookDataSet10";
-            this.db_bookDataSet10.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
             // comboBox13
             // 
             this.comboBox13.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
             this.comboBox13.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox13.DataSource = this.booksBindingSource12;
-            this.comboBox13.DisplayMember = "Name";
             this.comboBox13.FormattingEnabled = true;
             this.comboBox13.Location = new System.Drawing.Point(447, 60);
             this.comboBox13.Name = "comboBox13";
@@ -842,22 +570,10 @@
             this.comboBox13.TabIndex = 12;
             this.comboBox13.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
-            // booksBindingSource12
-            // 
-            this.booksBindingSource12.DataMember = "books";
-            this.booksBindingSource12.DataSource = this.db_bookDataSet11;
-            // 
-            // db_bookDataSet11
-            // 
-            this.db_bookDataSet11.DataSetName = "db_bookDataSet11";
-            this.db_bookDataSet11.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
             // comboBox14
             // 
             this.comboBox14.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
             this.comboBox14.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox14.DataSource = this.booksBindingSource13;
-            this.comboBox14.DisplayMember = "Name";
             this.comboBox14.FormattingEnabled = true;
             this.comboBox14.Location = new System.Drawing.Point(447, 87);
             this.comboBox14.Name = "comboBox14";
@@ -865,22 +581,10 @@
             this.comboBox14.TabIndex = 13;
             this.comboBox14.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
-            // booksBindingSource13
-            // 
-            this.booksBindingSource13.DataMember = "books";
-            this.booksBindingSource13.DataSource = this.db_bookDataSet12;
-            // 
-            // db_bookDataSet12
-            // 
-            this.db_bookDataSet12.DataSetName = "db_bookDataSet12";
-            this.db_bookDataSet12.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
             // comboBox15
             // 
             this.comboBox15.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
             this.comboBox15.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox15.DataSource = this.booksBindingSource14;
-            this.comboBox15.DisplayMember = "Name";
             this.comboBox15.FormattingEnabled = true;
             this.comboBox15.Location = new System.Drawing.Point(447, 114);
             this.comboBox15.Name = "comboBox15";
@@ -888,22 +592,10 @@
             this.comboBox15.TabIndex = 14;
             this.comboBox15.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
-            // booksBindingSource14
-            // 
-            this.booksBindingSource14.DataMember = "books";
-            this.booksBindingSource14.DataSource = this.db_bookDataSet13;
-            // 
-            // db_bookDataSet13
-            // 
-            this.db_bookDataSet13.DataSetName = "db_bookDataSet13";
-            this.db_bookDataSet13.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
             // comboBox16
             // 
             this.comboBox16.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
             this.comboBox16.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox16.DataSource = this.booksBindingSource15;
-            this.comboBox16.DisplayMember = "Name";
             this.comboBox16.FormattingEnabled = true;
             this.comboBox16.Location = new System.Drawing.Point(447, 141);
             this.comboBox16.Name = "comboBox16";
@@ -911,22 +603,10 @@
             this.comboBox16.TabIndex = 15;
             this.comboBox16.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
-            // booksBindingSource15
-            // 
-            this.booksBindingSource15.DataMember = "books";
-            this.booksBindingSource15.DataSource = this.db_bookDataSet14;
-            // 
-            // db_bookDataSet14
-            // 
-            this.db_bookDataSet14.DataSetName = "db_bookDataSet14";
-            this.db_bookDataSet14.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
             // comboBox17
             // 
             this.comboBox17.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
             this.comboBox17.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox17.DataSource = this.booksBindingSource16;
-            this.comboBox17.DisplayMember = "Name";
             this.comboBox17.FormattingEnabled = true;
             this.comboBox17.Location = new System.Drawing.Point(447, 168);
             this.comboBox17.Name = "comboBox17";
@@ -934,22 +614,10 @@
             this.comboBox17.TabIndex = 16;
             this.comboBox17.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
-            // booksBindingSource16
-            // 
-            this.booksBindingSource16.DataMember = "books";
-            this.booksBindingSource16.DataSource = this.db_bookDataSet15;
-            // 
-            // db_bookDataSet15
-            // 
-            this.db_bookDataSet15.DataSetName = "db_bookDataSet15";
-            this.db_bookDataSet15.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
             // comboBox18
             // 
             this.comboBox18.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
             this.comboBox18.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox18.DataSource = this.booksBindingSource17;
-            this.comboBox18.DisplayMember = "Name";
             this.comboBox18.FormattingEnabled = true;
             this.comboBox18.Location = new System.Drawing.Point(447, 195);
             this.comboBox18.Name = "comboBox18";
@@ -957,22 +625,10 @@
             this.comboBox18.TabIndex = 17;
             this.comboBox18.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
-            // booksBindingSource17
-            // 
-            this.booksBindingSource17.DataMember = "books";
-            this.booksBindingSource17.DataSource = this.db_bookDataSet16;
-            // 
-            // db_bookDataSet16
-            // 
-            this.db_bookDataSet16.DataSetName = "db_bookDataSet16";
-            this.db_bookDataSet16.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
             // comboBox19
             // 
             this.comboBox19.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
             this.comboBox19.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox19.DataSource = this.booksBindingSource18;
-            this.comboBox19.DisplayMember = "Name";
             this.comboBox19.FormattingEnabled = true;
             this.comboBox19.Location = new System.Drawing.Point(447, 222);
             this.comboBox19.Name = "comboBox19";
@@ -980,94 +636,16 @@
             this.comboBox19.TabIndex = 18;
             this.comboBox19.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
-            // booksBindingSource18
-            // 
-            this.booksBindingSource18.DataMember = "books";
-            this.booksBindingSource18.DataSource = this.db_bookDataSet17;
-            // 
-            // db_bookDataSet17
-            // 
-            this.db_bookDataSet17.DataSetName = "db_bookDataSet17";
-            this.db_bookDataSet17.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
             // comboBox20
             // 
             this.comboBox20.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
             this.comboBox20.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox20.DataSource = this.booksBindingSource19;
-            this.comboBox20.DisplayMember = "Name";
             this.comboBox20.FormattingEnabled = true;
             this.comboBox20.Location = new System.Drawing.Point(447, 249);
             this.comboBox20.Name = "comboBox20";
             this.comboBox20.Size = new System.Drawing.Size(182, 21);
             this.comboBox20.TabIndex = 19;
             this.comboBox20.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
-            // 
-            // booksBindingSource19
-            // 
-            this.booksBindingSource19.DataMember = "books";
-            this.booksBindingSource19.DataSource = this.db_bookDataSet18;
-            // 
-            // db_bookDataSet18
-            // 
-            this.db_bookDataSet18.DataSetName = "db_bookDataSet18";
-            this.db_bookDataSet18.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // booksTableAdapter6
-            // 
-            this.booksTableAdapter6.ClearBeforeFill = true;
-            // 
-            // booksTableAdapter7
-            // 
-            this.booksTableAdapter7.ClearBeforeFill = true;
-            // 
-            // booksTableAdapter8
-            // 
-            this.booksTableAdapter8.ClearBeforeFill = true;
-            // 
-            // booksTableAdapter9
-            // 
-            this.booksTableAdapter9.ClearBeforeFill = true;
-            // 
-            // booksTableAdapter10
-            // 
-            this.booksTableAdapter10.ClearBeforeFill = true;
-            // 
-            // booksTableAdapter11
-            // 
-            this.booksTableAdapter11.ClearBeforeFill = true;
-            // 
-            // booksTableAdapter12
-            // 
-            this.booksTableAdapter12.ClearBeforeFill = true;
-            // 
-            // booksTableAdapter13
-            // 
-            this.booksTableAdapter13.ClearBeforeFill = true;
-            // 
-            // booksTableAdapter14
-            // 
-            this.booksTableAdapter14.ClearBeforeFill = true;
-            // 
-            // booksTableAdapter15
-            // 
-            this.booksTableAdapter15.ClearBeforeFill = true;
-            // 
-            // booksTableAdapter16
-            // 
-            this.booksTableAdapter16.ClearBeforeFill = true;
-            // 
-            // booksTableAdapter17
-            // 
-            this.booksTableAdapter17.ClearBeforeFill = true;
-            // 
-            // booksTableAdapter18
-            // 
-            this.booksTableAdapter18.ClearBeforeFill = true;
-            // 
-            // booksTableAdapter19
-            // 
-            this.booksTableAdapter19.ClearBeforeFill = true;
             // 
             // buttonExport
             // 
@@ -1093,6 +671,16 @@
             // openFileDialog1
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
+            // 
+            // db_bookDataSet1
+            // 
+            this.db_bookDataSet1.DataSetName = "db_bookDataSet1";
+            this.db_bookDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // dbbookDataSet1BindingSource
+            // 
+            this.dbbookDataSet1BindingSource.DataSource = this.db_bookDataSet1;
+            this.dbbookDataSet1BindingSource.Position = 0;
             // 
             // Form1
             // 
@@ -1160,46 +748,8 @@
             this.Name = "Form1";
             this.Text = "Maturita Checker";
             this.Load += new System.EventHandler(this.Form1_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.booksBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.db_bookDataSet)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.booksBindingSource1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.db_bookDataSet1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.booksBindingSource2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.db_bookDataSet2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.booksBindingSource3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.db_bookDataSet3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.booksBindingSource4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.db_bookDataSet4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataSetComplete)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.booksBindingSource5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.booksBindingSource6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.db_bookDataSet5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.booksBindingSource7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.db_bookDataSet6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.booksBindingSource8)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.db_bookDataSet7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.booksBindingSource9)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.db_bookDataSet8)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.booksBindingSource10)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.db_bookDataSet9)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.booksBindingSource11)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.db_bookDataSet10)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.booksBindingSource12)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.db_bookDataSet11)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.booksBindingSource13)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.db_bookDataSet12)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.booksBindingSource14)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.db_bookDataSet13)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.booksBindingSource15)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.db_bookDataSet14)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.booksBindingSource16)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.db_bookDataSet15)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.booksBindingSource17)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.db_bookDataSet16)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.booksBindingSource18)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.db_bookDataSet17)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.booksBindingSource19)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.db_bookDataSet18)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dbbookDataSet1BindingSource)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1219,23 +769,8 @@
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.ComboBox comboBox1;
-        private db_bookDataSet db_bookDataSet;
-        private System.Windows.Forms.BindingSource booksBindingSource;
-        private db_bookDataSetTableAdapters.booksTableAdapter booksTableAdapter;
         private System.Windows.Forms.ComboBox comboBox4;
         private System.Windows.Forms.ComboBox comboBox5;
-        private db_bookDataSet1 db_bookDataSet1;
-        private System.Windows.Forms.BindingSource booksBindingSource1;
-        private db_bookDataSet1TableAdapters.booksTableAdapter booksTableAdapter1;
-        private db_bookDataSet2 db_bookDataSet2;
-        private System.Windows.Forms.BindingSource booksBindingSource2;
-        private db_bookDataSet2TableAdapters.booksTableAdapter booksTableAdapter2;
-        private db_bookDataSet3 db_bookDataSet3;
-        private System.Windows.Forms.BindingSource booksBindingSource3;
-        private db_bookDataSet3TableAdapters.booksTableAdapter booksTableAdapter3;
-        private db_bookDataSet4 db_bookDataSet4;
-        private System.Windows.Forms.BindingSource booksBindingSource4;
-        private db_bookDataSet4TableAdapters.booksTableAdapter booksTableAdapter4;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label13;
@@ -1246,7 +781,6 @@
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.Label label19;
         private System.Windows.Forms.Label label20;
-        private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
         private System.Windows.Forms.Button buttonKontrola;
         private System.Windows.Forms.Label label21;
         private System.Windows.Forms.Label label22;
@@ -1260,9 +794,6 @@
         private System.Windows.Forms.Label label19stol;
         private System.Windows.Forms.Label labelSvet;
         private System.Windows.Forms.Label labelCesko;
-        private dataSetComplete dataSetComplete;
-        private System.Windows.Forms.BindingSource booksBindingSource5;
-        private dataSetCompleteTableAdapters.booksTableAdapter booksTableAdapter5;
         private System.Windows.Forms.Label labelDrama;
         private System.Windows.Forms.Label labelProza;
         private System.Windows.Forms.Label labelPoezie;
@@ -1281,53 +812,13 @@
         private System.Windows.Forms.ComboBox comboBox18;
         private System.Windows.Forms.ComboBox comboBox19;
         private System.Windows.Forms.ComboBox comboBox20;
-        private db_bookDataSet5 db_bookDataSet5;
-        private System.Windows.Forms.BindingSource booksBindingSource6;
-        private db_bookDataSet5TableAdapters.booksTableAdapter booksTableAdapter6;
-        private db_bookDataSet6 db_bookDataSet6;
-        private System.Windows.Forms.BindingSource booksBindingSource7;
-        private db_bookDataSet6TableAdapters.booksTableAdapter booksTableAdapter7;
-        private db_bookDataSet7 db_bookDataSet7;
-        private System.Windows.Forms.BindingSource booksBindingSource8;
-        private db_bookDataSet7TableAdapters.booksTableAdapter booksTableAdapter8;
-        private db_bookDataSet8 db_bookDataSet8;
-        private System.Windows.Forms.BindingSource booksBindingSource9;
-        private db_bookDataSet8TableAdapters.booksTableAdapter booksTableAdapter9;
-        private db_bookDataSet9 db_bookDataSet9;
-        private System.Windows.Forms.BindingSource booksBindingSource10;
-        private db_bookDataSet9TableAdapters.booksTableAdapter booksTableAdapter10;
-        private db_bookDataSet10 db_bookDataSet10;
-        private System.Windows.Forms.BindingSource booksBindingSource11;
-        private db_bookDataSet10TableAdapters.booksTableAdapter booksTableAdapter11;
-        private db_bookDataSet11 db_bookDataSet11;
-        private System.Windows.Forms.BindingSource booksBindingSource12;
-        private db_bookDataSet11TableAdapters.booksTableAdapter booksTableAdapter12;
-        private db_bookDataSet12 db_bookDataSet12;
-        private System.Windows.Forms.BindingSource booksBindingSource13;
-        private db_bookDataSet12TableAdapters.booksTableAdapter booksTableAdapter13;
-        private db_bookDataSet13 db_bookDataSet13;
-        private System.Windows.Forms.BindingSource booksBindingSource14;
-        private db_bookDataSet13TableAdapters.booksTableAdapter booksTableAdapter14;
-        private db_bookDataSet14 db_bookDataSet14;
-        private System.Windows.Forms.BindingSource booksBindingSource15;
-        private db_bookDataSet14TableAdapters.booksTableAdapter booksTableAdapter15;
-        private db_bookDataSet15 db_bookDataSet15;
-        private System.Windows.Forms.BindingSource booksBindingSource16;
-        private db_bookDataSet15TableAdapters.booksTableAdapter booksTableAdapter16;
-        private db_bookDataSet16 db_bookDataSet16;
-        private System.Windows.Forms.BindingSource booksBindingSource17;
-        private db_bookDataSet16TableAdapters.booksTableAdapter booksTableAdapter17;
-        private db_bookDataSet17 db_bookDataSet17;
-        private System.Windows.Forms.BindingSource booksBindingSource18;
-        private db_bookDataSet17TableAdapters.booksTableAdapter booksTableAdapter18;
-        private db_bookDataSet18 db_bookDataSet18;
-        private System.Windows.Forms.BindingSource booksBindingSource19;
-        private db_bookDataSet18TableAdapters.booksTableAdapter booksTableAdapter19;
         private System.Windows.Forms.FolderBrowserDialog folderBrowserDialog1;
         private System.Windows.Forms.Button buttonExport;
         private System.Windows.Forms.Button buttonImport;
         private System.Windows.Forms.SaveFileDialog saveFileDialog1;
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
+        private db_bookDataSet1 db_bookDataSet1;
+        private System.Windows.Forms.BindingSource dbbookDataSet1BindingSource;
     }
 }
 

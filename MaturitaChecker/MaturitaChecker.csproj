@@ -13,7 +13,7 @@
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
     <IsWebBootstrapper>false</IsWebBootstrapper>
-    <PublishUrl>C:\Users\Krystof\Desktop\</PublishUrl>
+    <PublishUrl>C:\Users\Krystof\Desktop\Maturita checker intalator\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
     <UpdateEnabled>false</UpdateEnabled>
@@ -23,8 +23,7 @@
     <UpdatePeriodically>false</UpdatePeriodically>
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
-    <AutorunEnabled>true</AutorunEnabled>
-    <ApplicationRevision>4</ApplicationRevision>
+    <ApplicationRevision>6</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
@@ -59,9 +58,12 @@
     <GenerateManifests>true</GenerateManifests>
   </PropertyGroup>
   <PropertyGroup>
-    <SignManifests>true</SignManifests>
+    <SignManifests>false</SignManifests>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Data.Linq" />
@@ -82,104 +84,14 @@
       <DependentUpon>DataClasses.dbml</DependentUpon>
     </Compile>
     <Compile Include="dataSetComplete.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
       <DependentUpon>dataSetComplete.xsd</DependentUpon>
-    </Compile>
-    <Compile Include="db_bookDataSet.Designer.cs">
-      <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>db_bookDataSet.xsd</DependentUpon>
+      <AutoGen>True</AutoGen>
     </Compile>
     <Compile Include="db_bookDataSet1.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
       <DependentUpon>db_bookDataSet1.xsd</DependentUpon>
-    </Compile>
-    <Compile Include="db_bookDataSet10.Designer.cs">
-      <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>db_bookDataSet10.xsd</DependentUpon>
-    </Compile>
-    <Compile Include="db_bookDataSet11.Designer.cs">
       <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>db_bookDataSet11.xsd</DependentUpon>
-    </Compile>
-    <Compile Include="db_bookDataSet12.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>db_bookDataSet12.xsd</DependentUpon>
-    </Compile>
-    <Compile Include="db_bookDataSet13.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>db_bookDataSet13.xsd</DependentUpon>
-    </Compile>
-    <Compile Include="db_bookDataSet14.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>db_bookDataSet14.xsd</DependentUpon>
-    </Compile>
-    <Compile Include="db_bookDataSet15.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>db_bookDataSet15.xsd</DependentUpon>
-    </Compile>
-    <Compile Include="db_bookDataSet16.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>db_bookDataSet16.xsd</DependentUpon>
-    </Compile>
-    <Compile Include="db_bookDataSet17.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>db_bookDataSet17.xsd</DependentUpon>
-    </Compile>
-    <Compile Include="db_bookDataSet18.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>db_bookDataSet18.xsd</DependentUpon>
-    </Compile>
-    <Compile Include="db_bookDataSet2.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>db_bookDataSet2.xsd</DependentUpon>
-    </Compile>
-    <Compile Include="db_bookDataSet3.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>db_bookDataSet3.xsd</DependentUpon>
-    </Compile>
-    <Compile Include="db_bookDataSet4.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>db_bookDataSet4.xsd</DependentUpon>
-    </Compile>
-    <Compile Include="db_bookDataSet5.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>db_bookDataSet5.xsd</DependentUpon>
-    </Compile>
-    <Compile Include="db_bookDataSet6.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>db_bookDataSet6.xsd</DependentUpon>
-    </Compile>
-    <Compile Include="db_bookDataSet7.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>db_bookDataSet7.xsd</DependentUpon>
-    </Compile>
-    <Compile Include="db_bookDataSet8.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>db_bookDataSet8.xsd</DependentUpon>
-    </Compile>
-    <Compile Include="db_bookDataSet9.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>db_bookDataSet9.xsd</DependentUpon>
     </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -206,6 +118,8 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="bin\Debug\MaturitaChecker.exe.config" />
+    <None Include="bin\Release\MaturitaChecker.exe.config" />
     <None Include="DataClasses.dbml">
       <Generator>MSLinqToSQLGenerator</Generator>
       <LastGenOutput>DataClasses.designer.cs</LastGenOutput>
@@ -218,221 +132,23 @@
       <DependentUpon>dataSetComplete.xsd</DependentUpon>
     </None>
     <None Include="dataSetComplete.xsd">
+      <SubType>Designer</SubType>
       <Generator>MSDataSetGenerator</Generator>
       <LastGenOutput>dataSetComplete.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
     </None>
     <None Include="dataSetComplete.xss">
       <DependentUpon>dataSetComplete.xsd</DependentUpon>
-    </None>
-    <None Include="db_bookDataSet.xsc">
-      <DependentUpon>db_bookDataSet.xsd</DependentUpon>
-    </None>
-    <None Include="db_bookDataSet.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>db_bookDataSet.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="db_bookDataSet.xss">
-      <DependentUpon>db_bookDataSet.xsd</DependentUpon>
     </None>
     <None Include="db_bookDataSet1.xsc">
       <DependentUpon>db_bookDataSet1.xsd</DependentUpon>
     </None>
     <None Include="db_bookDataSet1.xsd">
+      <SubType>Designer</SubType>
       <Generator>MSDataSetGenerator</Generator>
       <LastGenOutput>db_bookDataSet1.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
     </None>
     <None Include="db_bookDataSet1.xss">
       <DependentUpon>db_bookDataSet1.xsd</DependentUpon>
-    </None>
-    <None Include="db_bookDataSet10.xsc">
-      <DependentUpon>db_bookDataSet10.xsd</DependentUpon>
-    </None>
-    <None Include="db_bookDataSet10.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>db_bookDataSet10.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="db_bookDataSet10.xss">
-      <DependentUpon>db_bookDataSet10.xsd</DependentUpon>
-    </None>
-    <None Include="db_bookDataSet11.xsc">
-      <DependentUpon>db_bookDataSet11.xsd</DependentUpon>
-    </None>
-    <None Include="db_bookDataSet11.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>db_bookDataSet11.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="db_bookDataSet11.xss">
-      <DependentUpon>db_bookDataSet11.xsd</DependentUpon>
-    </None>
-    <None Include="db_bookDataSet12.xsc">
-      <DependentUpon>db_bookDataSet12.xsd</DependentUpon>
-    </None>
-    <None Include="db_bookDataSet12.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>db_bookDataSet12.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="db_bookDataSet12.xss">
-      <DependentUpon>db_bookDataSet12.xsd</DependentUpon>
-    </None>
-    <None Include="db_bookDataSet13.xsc">
-      <DependentUpon>db_bookDataSet13.xsd</DependentUpon>
-    </None>
-    <None Include="db_bookDataSet13.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>db_bookDataSet13.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="db_bookDataSet13.xss">
-      <DependentUpon>db_bookDataSet13.xsd</DependentUpon>
-    </None>
-    <None Include="db_bookDataSet14.xsc">
-      <DependentUpon>db_bookDataSet14.xsd</DependentUpon>
-    </None>
-    <None Include="db_bookDataSet14.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>db_bookDataSet14.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="db_bookDataSet14.xss">
-      <DependentUpon>db_bookDataSet14.xsd</DependentUpon>
-    </None>
-    <None Include="db_bookDataSet15.xsc">
-      <DependentUpon>db_bookDataSet15.xsd</DependentUpon>
-    </None>
-    <None Include="db_bookDataSet15.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>db_bookDataSet15.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="db_bookDataSet15.xss">
-      <DependentUpon>db_bookDataSet15.xsd</DependentUpon>
-    </None>
-    <None Include="db_bookDataSet16.xsc">
-      <DependentUpon>db_bookDataSet16.xsd</DependentUpon>
-    </None>
-    <None Include="db_bookDataSet16.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>db_bookDataSet16.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="db_bookDataSet16.xss">
-      <DependentUpon>db_bookDataSet16.xsd</DependentUpon>
-    </None>
-    <None Include="db_bookDataSet17.xsc">
-      <DependentUpon>db_bookDataSet17.xsd</DependentUpon>
-    </None>
-    <None Include="db_bookDataSet17.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>db_bookDataSet17.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="db_bookDataSet17.xss">
-      <DependentUpon>db_bookDataSet17.xsd</DependentUpon>
-    </None>
-    <None Include="db_bookDataSet18.xsc">
-      <DependentUpon>db_bookDataSet18.xsd</DependentUpon>
-    </None>
-    <None Include="db_bookDataSet18.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>db_bookDataSet18.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="db_bookDataSet18.xss">
-      <DependentUpon>db_bookDataSet18.xsd</DependentUpon>
-    </None>
-    <None Include="db_bookDataSet2.xsc">
-      <DependentUpon>db_bookDataSet2.xsd</DependentUpon>
-    </None>
-    <None Include="db_bookDataSet2.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>db_bookDataSet2.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="db_bookDataSet2.xss">
-      <DependentUpon>db_bookDataSet2.xsd</DependentUpon>
-    </None>
-    <None Include="db_bookDataSet3.xsc">
-      <DependentUpon>db_bookDataSet3.xsd</DependentUpon>
-    </None>
-    <None Include="db_bookDataSet3.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>db_bookDataSet3.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="db_bookDataSet3.xss">
-      <DependentUpon>db_bookDataSet3.xsd</DependentUpon>
-    </None>
-    <None Include="db_bookDataSet4.xsc">
-      <DependentUpon>db_bookDataSet4.xsd</DependentUpon>
-    </None>
-    <None Include="db_bookDataSet4.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>db_bookDataSet4.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="db_bookDataSet4.xss">
-      <DependentUpon>db_bookDataSet4.xsd</DependentUpon>
-    </None>
-    <None Include="db_bookDataSet5.xsc">
-      <DependentUpon>db_bookDataSet5.xsd</DependentUpon>
-    </None>
-    <None Include="db_bookDataSet5.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>db_bookDataSet5.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="db_bookDataSet5.xss">
-      <DependentUpon>db_bookDataSet5.xsd</DependentUpon>
-    </None>
-    <None Include="db_bookDataSet6.xsc">
-      <DependentUpon>db_bookDataSet6.xsd</DependentUpon>
-    </None>
-    <None Include="db_bookDataSet6.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>db_bookDataSet6.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="db_bookDataSet6.xss">
-      <DependentUpon>db_bookDataSet6.xsd</DependentUpon>
-    </None>
-    <None Include="db_bookDataSet7.xsc">
-      <DependentUpon>db_bookDataSet7.xsd</DependentUpon>
-    </None>
-    <None Include="db_bookDataSet7.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>db_bookDataSet7.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="db_bookDataSet7.xss">
-      <DependentUpon>db_bookDataSet7.xsd</DependentUpon>
-    </None>
-    <None Include="db_bookDataSet8.xsc">
-      <DependentUpon>db_bookDataSet8.xsd</DependentUpon>
-    </None>
-    <None Include="db_bookDataSet8.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>db_bookDataSet8.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="db_bookDataSet8.xss">
-      <DependentUpon>db_bookDataSet8.xsd</DependentUpon>
-    </None>
-    <None Include="db_bookDataSet9.xsc">
-      <DependentUpon>db_bookDataSet9.xsd</DependentUpon>
-    </None>
-    <None Include="db_bookDataSet9.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>db_bookDataSet9.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="db_bookDataSet9.xss">
-      <DependentUpon>db_bookDataSet9.xsd</DependentUpon>
     </None>
     <None Include="MaturitaChecker_TemporaryKey.pfx" />
     <None Include="obj\Debug\DesignTimeResolveAssemblyReferences.cache" />
@@ -440,6 +156,7 @@
     <None Include="obj\Debug\MaturitaChecker.csproj.CoreCompileInputs.cache" />
     <None Include="obj\Debug\MaturitaChecker.csproj.GenerateResource.cache" />
     <None Include="obj\Debug\MaturitaChecker.csprojAssemblyReference.cache" />
+    <None Include="packages.config" />
     <None Include="Properties\DataSources\Form1.datasource" />
     <None Include="Properties\DataSources\MaturitaChecker.Properties.Resources.datasource" />
     <None Include="Properties\DataSources\MaturitaChecker.Properties.Settings.datasource" />
@@ -470,13 +187,10 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="data\db_book.mdf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="data\db_book_log.ldf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      <DependentUpon>db_book.mdf</DependentUpon>
-    </Content>
+    <Content Include="bin\Debug\MaturitaChecker.exe" />
+    <Content Include="bin\Debug\MaturitaChecker.pdb" />
+    <Content Include="bin\Release\MaturitaChecker.exe" />
+    <Content Include="bin\Release\MaturitaChecker.pdb" />
     <Content Include="obj\Debug\MaturitaChecker.csproj.FileListAbsolute.txt" />
     <Content Include="obj\Debug\MaturitaChecker.exe" />
     <Content Include="obj\Debug\MaturitaChecker.pdb" />
@@ -489,6 +203,9 @@
   </ItemGroup>
   <ItemGroup>
     <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="data\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
