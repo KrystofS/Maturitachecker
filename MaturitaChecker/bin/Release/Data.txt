@@ -1,0 +1,424 @@
+{
+  "books": [
+    {
+      "Name": "Umění milovat",
+      "time": "18",
+      "genre": "po",
+      "ID": 1
+    },
+    {
+      "Name": "Romeo a Julie",
+      "time": "18",
+      "genre": "dr",
+      "ID": 2
+    },
+    {
+      "Name": "Důmyslný rytíř don Quijote de la Mancha",
+      "time": "18",
+      "genre": "pr",
+      "ID": 3
+    },
+    {
+      "Name": "Závěť",
+      "time": "18",
+      "genre": "po",
+      "ID": 4
+    },
+    {
+      "Name": "Labyrint světa a ráj srdce",
+      "time": "18",
+      "genre": "pr",
+      "ID": 5
+    },
+    {
+      "Name": "Utrpení mladého Werthera",
+      "time": "18",
+      "genre": "pr",
+      "ID": 6
+    },
+    {
+      "Name": "Evžen Oněgin",
+      "time": "19",
+      "genre": "po",
+      "ID": 7
+    },
+    {
+      "Name": "Chrám Matky Boží v Paříži",
+      "time": "19",
+      "genre": "pr",
+      "ID": 8
+    },
+    {
+      "Name": "Paní Bovaryová",
+      "time": "19",
+      "genre": "pr",
+      "ID": 9
+    },
+    {
+      "Name": "Černý kocour (výbor z povídek)",
+      "time": "19",
+      "genre": "pr",
+      "ID": 10
+    },
+    {
+      "Name": "Zločin a trest",
+      "time": "19",
+      "genre": "pr",
+      "ID": 11
+    },
+    {
+      "Name": "Zabiják",
+      "time": "19",
+      "genre": "pr",
+      "ID": 12
+    },
+    {
+      "Name": "Opilý koráb",
+      "time": "19",
+      "genre": "po",
+      "ID": 13
+    },
+    {
+      "Name": "Ohlas písní českých",
+      "time": "19",
+      "genre": "po",
+      "ID": 14
+    },
+    {
+      "Name": "Máj",
+      "time": "19",
+      "genre": "po",
+      "ID": 15
+    },
+    {
+      "Name": "Kytice",
+      "time": "19",
+      "genre": "po",
+      "ID": 16
+    },
+    {
+      "Name": "Povídky malostranské",
+      "time": "19",
+      "genre": "pr",
+      "ID": 17
+    },
+    {
+      "Name": "Balady a romance",
+      "time": "19",
+      "genre": "po",
+      "ID": 18
+    },
+    {
+      "Name": "Babička",
+      "time": "19",
+      "genre": "pr",
+      "ID": 19
+    },
+    {
+      "Name": "Svatý Xaverius",
+      "time": "19",
+      "genre": "pr",
+      "ID": 20
+    },
+    {
+      "Name": "Nový epochální výlet pana Broučka, tentokráte do XV. století",
+      "time": "19",
+      "genre": "pr",
+      "ID": 21
+    },
+    {
+      "Name": "Staré pověsti české",
+      "time": "19",
+      "genre": "pr",
+      "ID": 22
+    },
+    {
+      "Name": "Maryša",
+      "time": "19",
+      "genre": "dr",
+      "ID": 23
+    },
+    {
+      "Name": "Obraz Doriana Graye",
+      "time": "19",
+      "genre": "pr",
+      "ID": 24
+    },
+    {
+      "Name": "Proměna",
+      "time": "20s",
+      "genre": "pr",
+      "ID": 25
+    },
+    {
+      "Name": "Alkoholy",
+      "time": "20s",
+      "genre": "po",
+      "ID": 26
+    },
+    {
+      "Name": "Pygmalion",
+      "time": "20s",
+      "genre": "dr",
+      "ID": 27
+    },
+    {
+      "Name": "Na západní frontě klid",
+      "time": "20s",
+      "genre": "pr",
+      "ID": 28
+    },
+    {
+      "Name": "Malý princ",
+      "time": "20s",
+      "genre": "pr",
+      "ID": 29
+    },
+    {
+      "Name": "Stařec a moře",
+      "time": "20s",
+      "genre": "pr",
+      "ID": 30
+    },
+    {
+      "Name": "Cizinec",
+      "time": "20s",
+      "genre": "pr",
+      "ID": 31
+    },
+    {
+      "Name": "1984",
+      "time": "20s",
+      "genre": "pr",
+      "ID": 32
+    },
+    {
+      "Name": "Kočka na rozpálené plechové střeše",
+      "time": "20s",
+      "genre": "dr",
+      "ID": 33
+    },
+    {
+      "Name": "Horalka",
+      "time": "20s",
+      "genre": "pr",
+      "ID": 34
+    },
+    {
+      "Name": "Kdo chytá v žitě",
+      "time": "20s",
+      "genre": "pr",
+      "ID": 35
+    },
+    {
+      "Name": "Fyzikové",
+      "time": "20s",
+      "genre": "dr",
+      "ID": 36
+    },
+    {
+      "Name": "451° Fahrenheita",
+      "time": "20s",
+      "genre": "pr",
+      "ID": 37
+    },
+    {
+      "Name": "Na cestě",
+      "time": "20s",
+      "genre": "pr",
+      "ID": 38
+    },
+    {
+      "Name": "Smrt si říká Engelchen",
+      "time": "20s",
+      "genre": "pr",
+      "ID": 39
+    },
+    {
+      "Name": "Jeden den Ivana Děnisoviče",
+      "time": "20s",
+      "genre": "pr",
+      "ID": 40
+    },
+    {
+      "Name": "Sophiina volba",
+      "time": "20s",
+      "genre": "pr",
+      "ID": 41
+    },
+    {
+      "Name": "O lásce a jiných běsech",
+      "time": "20s",
+      "genre": "pr",
+      "ID": 42
+    },
+    {
+      "Name": "Radosti života",
+      "time": "20c",
+      "genre": "po",
+      "ID": 43
+    },
+    {
+      "Name": "Slezské písně",
+      "time": "20c",
+      "genre": "po",
+      "ID": 44
+    },
+    {
+      "Name": "Krysař",
+      "time": "20c",
+      "genre": "pr",
+      "ID": 45
+    },
+    {
+      "Name": "Osudy dobrého vojáka Švejka za světové války ( 1. a 2. díl)",
+      "time": "20c",
+      "genre": "pr",
+      "ID": 46
+    },
+    {
+      "Name": "RUR",
+      "time": "20c",
+      "genre": "dr",
+      "ID": 47
+    },
+    {
+      "Name": "Povídky z jedné kapsy",
+      "time": "20c",
+      "genre": "pr",
+      "ID": 48
+    },
+    {
+      "Name": "Petrolejové lampy",
+      "time": "20c",
+      "genre": "pr",
+      "ID": 49
+    },
+    {
+      "Name": "Rozmarné léto",
+      "time": "20c",
+      "genre": "pr",
+      "ID": 50
+    },
+    {
+      "Name": "Maminka",
+      "time": "20c",
+      "genre": "po",
+      "ID": 51
+    },
+    {
+      "Name": "Romance pro křídlovku",
+      "time": "20c",
+      "genre": "po",
+      "ID": 52
+    },
+    {
+      "Name": "Smuténka",
+      "time": "20c",
+      "genre": "po",
+      "ID": 53
+    },
+    {
+      "Name": "Blues pro bláznivou holku",
+      "time": "20c",
+      "genre": "po",
+      "ID": 54
+    },
+    {
+      "Name": "Zbabělci",
+      "time": "20c",
+      "genre": "pr",
+      "ID": 55
+    },
+    {
+      "Name": "Modlitba pro Kateřinu Horovitzovou",
+      "time": "20c",
+      "genre": "pr",
+      "ID": 56
+    },
+    {
+      "Name": "Žert\r\n",
+      "time": "20c",
+      "genre": "pr",
+      "ID": 57
+    },
+    {
+      "Name": "Ostře sledované vlaky",
+      "time": "20c",
+      "genre": "pr",
+      "ID": 58
+    },
+    {
+      "Name": "Spalovač mrtvol",
+      "time": "20c",
+      "genre": "pr",
+      "ID": 59
+    },
+    {
+      "Name": "Vyšetřování ztráty třídní knihy",
+      "time": "20c",
+      "genre": "dr",
+      "ID": 60
+    },
+    {
+      "Name": "Soukromá vichřice",
+      "time": "20c",
+      "genre": "pr",
+      "ID": 61
+    },
+    {
+      "Name": "Audience",
+      "time": "20c",
+      "genre": "dr",
+      "ID": 62
+    },
+    {
+      "Name": "Smrt krásných srnců",
+      "time": "20c",
+      "genre": "pr",
+      "ID": 63
+    },
+    {
+      "Name": "Kníška",
+      "time": "20c",
+      "genre": "po",
+      "ID": 65
+    },
+    {
+      "Name": "Báječná léta pod psa",
+      "time": "20c",
+      "genre": "pr",
+      "ID": 66
+    },
+    {
+      "Name": "Želary",
+      "time": "20c",
+      "genre": "pr",
+      "ID": 67
+    },
+    {
+      "Name": "Hrdý Budžes",
+      "time": "20c",
+      "genre": "pr",
+      "ID": 68
+    },
+    {
+      "Name": "Zvuk slunečních hodin",
+      "time": "20c",
+      "genre": "pr",
+      "ID": 69
+    },
+    {
+      "Name": "Anděl",
+      "time": "20c",
+      "genre": "pr",
+      "ID": 70
+    },
+    {
+      "Name": "Žítkovské bohyně",
+      "time": "20c",
+      "genre": "pr",
+      "ID": 71
+    }
+  ]
+}
