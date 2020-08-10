@@ -99,9 +99,6 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
-    <Compile Include="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
-    <Compile Include="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -118,8 +115,6 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <None Include="bin\Debug\MaturitaChecker.exe.config" />
-    <None Include="bin\Release\MaturitaChecker.exe.config" />
     <None Include="DataClasses.dbml">
       <Generator>MSLinqToSQLGenerator</Generator>
       <LastGenOutput>DataClasses.designer.cs</LastGenOutput>
@@ -187,24 +182,16 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="bin\Debug\MaturitaChecker.exe" />
-    <Content Include="bin\Debug\MaturitaChecker.pdb" />
-    <Content Include="bin\Release\MaturitaChecker.exe" />
-    <Content Include="bin\Release\MaturitaChecker.pdb" />
     <Content Include="obj\Debug\MaturitaChecker.csproj.FileListAbsolute.txt" />
     <Content Include="obj\Debug\MaturitaChecker.exe" />
     <Content Include="obj\Debug\MaturitaChecker.pdb" />
-    <Content Include="obj\Debug\TempPE\data.DataSet1.Designer.cs.dll" />
-    <Content Include="obj\Debug\TempPE\db_bookDataSet.Designer.cs.dll" />
-    <Content Include="obj\Debug\TempPE\db_bookDataSet1.Designer.cs.dll" />
-    <Content Include="obj\Debug\TempPE\db_bookDataSet2.Designer.cs.dll" />
-    <Content Include="obj\Debug\TempPE\db_bookDataSet3.Designer.cs.dll" />
-    <Content Include="obj\Debug\TempPE\db_bookDataSet4.Designer.cs.dll" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="bin\Debug\" />
+    <Folder Include="bin\Release\" />
     <Folder Include="data\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
